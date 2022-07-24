@@ -5,6 +5,11 @@ body {
   text-align: center;
   margin: 0px;
   padding: 0px;
+  max-width: 1440px;
+  max-height: 900px;
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: #e0e8ff;
 }
 
 body .card {
@@ -13,6 +18,7 @@ body .card {
   margin: 40px auto;
   -webkit-box-shadow: 0px 10px 20px lightgrey;
           box-shadow: 0px 10px 20px lightgrey;
+  background-color: white;
 }
 
 body .card .cardImg img {
