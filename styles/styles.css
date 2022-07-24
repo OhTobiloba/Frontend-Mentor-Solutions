@@ -66,11 +66,16 @@ body .card .cardOrderPlan a {
   margin: auto;
 }
 
+body .card .cardOrderPlan a:hover {
+  text-decoration: none;
+  color: #7280a7;
+}
+
 body .card .paymentBtn {
   border-style: none;
   width: 80%;
   margin: 20px auto;
-  height: 50px;
+  height: 45px;
   border-radius: 10px;
   background-color: #3829e0;
   -webkit-box-shadow: 0px 10px 20px lightgrey;
@@ -83,6 +88,14 @@ body .card .paymentBtn a {
   font-weight: 700;
 }
 
+body .card .paymentBtn:hover {
+  -webkit-filter: hue-rotate(10deg);
+          filter: hue-rotate(10deg);
+  -webkit-filter: opacity(0.8);
+          filter: opacity(0.8);
+  cursor: pointer;
+}
+
 body .card .cancelOrder {
   height: 50px;
 }
@@ -92,6 +105,10 @@ body .card .cancelOrder a, body .card .cancelOrder :active {
   color: #7280a7;
   margin: auto;
   font-weight: 600;
+}
+
+body .card .cancelOrder a:hover {
+  color: black;
 }
 
 body .attribution {

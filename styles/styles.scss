@@ -58,12 +58,16 @@ body {
             a {
                 margin:auto;
             }
+            a:hover {
+                text-decoration: none;
+                color: $Desaturated-blue;
+            }
         }
         .paymentBtn {
             border-style: none;
             width: 80%;
             margin: 20px auto;
-            height: 50px;
+            height: 45px;
             border-radius: 10px;
             background-color: $Bright-blue;
             box-shadow: 0px 10px 20px lightgrey;
@@ -73,6 +77,12 @@ body {
                 font-weight: 700;
             }
         }
+
+        .paymentBtn:hover {
+            filter: hue-rotate(10deg);
+            filter: opacity(0.8);
+            cursor: pointer;
+        }
         .cancelOrder {
             height: 50px;
             a, :active {
@@ -80,6 +90,10 @@ body {
                 color: $Desaturated-blue;
                 margin: auto;
                 font-weight: 600;
+            }
+
+            a:hover {
+                color:black;
             }
         }
     }
