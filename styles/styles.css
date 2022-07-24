@@ -98,4 +98,13 @@ body .attribution {
   margin-top: 30px;
   height: 30px;
 }
+
+@media screen and (max-width: 600px) {
+  body .card {
+    width: 375px;
+  }
+  body .card .cardImg img {
+    width: 375px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
