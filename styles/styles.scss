@@ -15,7 +15,7 @@ body {
     max-width: 1440px;
     max-height: 900px;
     background-image: url(/images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-color: $Pale-blue;
     .card {
         border-radius: 20px;
