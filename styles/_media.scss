@@ -20,3 +20,14 @@ body {
     }
 }
 }
+
+@media screen and (max-width: 350px){
+body {
+    .card {
+        width:250px;
+        .cardImg {img {
+            width:250px;
+        }}
+    }
+}
+}
